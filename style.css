@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Numans", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: calc(100% - 100px);
+  height: calc(100vh - 200px);
+  background-color: #fcd3a7;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  position: absolute;
+  height: 100px;
+  top: -50px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20%;
+  backdrop-filter: blur(10px);
+}
+
+header ul {
+  display: flex;
+}
+
+header .logo {
+  color: rgb(110, 1, 1);
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+header ul li {
+  list-style: none;
+  margin: 0 24px;
+}
+
+header ul a {
+  text-decoration: none;
+  color: rgb(78, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+header ul a:hover {
+  color: blue;
+  transition: 0.5s;
+}
+
+header ul .resume {
+  color: rgb(34, 34, 239);
+  background: rgb(247, 247, 244);
+  border-radius: 10px;
+  padding: 10px 20px;
+  opacity: 80%;
+}
+
+header ul .resume:hover {
+  color: aquamarine;
+  background: black;
+  transition: 0.5s;
+}
+
+.content {
+  position: relative;
+  background: #f5f2f2;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 920px;
+  height: auto;
+  padding: 40px;
+  border-radius: 20px;
+  opacity: 80%;
+  margin-top: 30px;
+}
+
+.content h1 {
+  position: absolute;
+  top: 16px;
+  font-size: 30px;
+  color: #800514;
+  font-weight: 600;
+}
+
+.content p {
+  font-size: 24px;
+  padding: 26px;
+  line-height: 1.5;
+}
+
+.icons {
+  position: absolute;
+  left: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons li {
+  list-style: none;
+}
+
+.icons li a {
+  text-decoration: none;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 13px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icons li a img {
+  transform: scale(0.6);
+  width: 200px;
+  height: 150%;
+  transition: 0.5s;
+}
