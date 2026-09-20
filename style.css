@@ -42,7 +42,8 @@ header {
 }
 
 header img {
-  width: 50px;
+  width: 36px;
+  margin-left: -42px;
 }
 
 header ul {
@@ -51,10 +52,10 @@ header ul {
 
 header .logo {
   color: rgb(110, 1, 1);
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
   font-weight: bolder;
-  margin-right: 230px;
+  position: fixed;
 }
 
 header ul li {
@@ -62,37 +63,62 @@ header ul li {
   margin: 0 24px;
 }
 
-header ul li .project {
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 header ul a {
   text-decoration: none;
-  color: rgb(78, 0, 0);
-  font-size: 20px;
+}
+
+header ul .project {
+  font-size: 18px;
+  color: #800514;
   font-weight: 600;
 }
 
-header ul a:hover {
-  color: blue;
+header ul .project:hover {
+  color: rgb(251, 238, 185);
+  background: rgb(246, 69, 69);
+  padding: 6px 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+header ul .skill {
+  font-size: 18px;
+  color: #800514;
+  font-weight: 600;
+}
+
+header ul .skill:hover {
+  color: rgb(251, 238, 185);
+  background: rgb(239, 80, 80);
+  padding: 6px 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+header ul .certificates {
+  color: #800514;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+header ul .certificates:hover {
+  color: aquamarine;
+  background: black;
+  border-radius: 10px;
+  padding: 8px 14px;
   transition: 0.5s;
 }
 
 header ul .resume {
-  color: rgb(34, 34, 239);
-  background: rgb(247, 247, 244);
-  border-radius: 10px;
-  padding: 10px 20px;
-  opacity: 80%;
+  color: #800514;
+  font-weight: 600;
 }
 
 header ul .resume:hover {
   color: aquamarine;
   background: black;
+  border-radius: 10px;
+  padding: 8px 14px;
   transition: 0.5s;
 }
 
@@ -110,7 +136,7 @@ header ul .resume:hover {
 
 .content h1 {
   position: absolute;
-  top: 16px;
+  top: 20px;
   font-size: 30px;
   color: #800514;
   font-weight: 600;
@@ -118,8 +144,8 @@ header ul .resume:hover {
 
 .content p {
   font-size: 24px;
-  padding: 26px;
-  line-height: 1.5;
+  padding: 28px;
+  line-height: 1.6;
 }
 
 .icons {
