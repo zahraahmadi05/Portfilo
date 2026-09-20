@@ -150,3 +150,89 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.container .card2 .snapp .snapp-content {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.container .card2:hover .snapp-img {
+  transform: translateX(-500px);
+}
+
+.container .card2:hover .snapp-content {
+  left: 0;
+}
+
+.container .card2 .snapp .snapp-img {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  width: 526px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.container .card2 .snapp .snapp-content h1 {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-size: 20px;
+  color: #620909;
+  font-weight: 700;
+}
+
+.container .card2 .snapp .snapp-content p {
+  font-size: 18px;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  line-height: 1.7;
+  color: #4e0202;
+  font-weight: 600;
+}
+
+.container .card2 .snapp .snapp-content .built {
+  position: absolute;
+  top: 180px;
+  left: 10px;
+  font-size: 18px;
+  list-style: none;
+  color: #450202;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+.container .card2 .snapp .snapp-content .snapp-demo {
+  position: absolute;
+  top: 300px;
+  left: 10px;
+  font-size: 18px;
+  list-style: none;
+  color: #450202;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+.container .card2 .snapp .snapp-content .link-demo-snapp {
+  position: absolute;
+  top: 340px;
+  left: 10px;
+  font-size: 18px;
+  list-style: none;
+  color: #0a6adf;
+  line-height: 1.7;
+  font-weight: 600;
+  text-decoration: none;
+}
