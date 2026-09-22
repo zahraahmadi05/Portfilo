@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Numans", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  height: 94%;
+  background-color: #fcd3a7;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 28px;
+  color: #620909;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.container .card {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  width: 43%;
+  height: 80%;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container .card img {
+  margin: 0 8px;
+  position: absolute;
+  left: 20px;
+}
+
+.container .card .html {
+  width: 70px;
+  position: absolute;
+  top: 16px;
+}
+
+.container .card .css {
+  width: 70px;
+  position: absolute;
+  top: 98px;
+}
+
+.container .card .js {
+  width: 70px;
+  position: absolute;
+  top: 190px;
+}
+
+.container .card .tailwind {
+  width: 70px;
+  position: absolute;
+  top: 276px;
+}
+
+.container .card .git {
+  width: 60px;
+  position: absolute;
+  top: 366px;
+  left: 25px;
+}
+
+.container .card .github {
+  width: 70px;
+  position: absolute;
+  top: 446px;
+}
+
+.container .card .dots {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.container .card .dots .dot.on {
+  background: #08b402;
+}
+
+.container .card .dots .dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #9bf697;
+}
