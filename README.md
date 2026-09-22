@@ -4,35 +4,25 @@
 
 # ✨ Features
 
-## 🎨 Custom UI Design
-
-## 🧩 Project Showcase
-
-## 👩‍💻 About Me Section
-
-## 🔗 Social Media Links
-
-## 🖼️ Interactive Project Cards
-
-## ✨ Clean & Modern Design
-
-## 🧭 Easy Navigation
-
-## 📂 Project Details
-
-## 📄 Downloadable Resume and Certificates
-
-## 🛠️ Dedicated Skills section
+🎨 Custom UI Design
+🧩 Project Showcase
+👩‍💻 About Me Section
+🔗 Social Media Links
+🖼️ Interactive Project Cards
+✨ Clean & Modern Design
+🧭 Easy Navigation
+📂 Project Details
+📄 Downloadable Resume and Certificates
+🛠️ Dedicated Skills section
 
 # 🛠️ Built With
 
-## HTML5
-
-## CSS3
+HTML5
+CSS3
 
 # 🖼️ Screenshot
 
-## [!portfilo](imgs/portfilo.png)
+## ![portfilo](imgs/portfilo.png)
 
 # 📄 LICENCE
 
