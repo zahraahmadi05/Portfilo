@@ -180,3 +180,7 @@ header ul .resume:hover {
   height: 150%;
   transition: 0.5s;
 }
+
+.icons li:hover a img {
+  transform: scale(0.5) rotate(360deg);
+}
