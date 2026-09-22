@@ -1,6 +1,6 @@
 # Portdfilo
 
-# A personal portfolio website where users can learn more about me, explore my skills and projects, view project images and descriptions, download my resume and certificates, and visit my social media profiles.
+## A personal portfolio website where users can learn more about me, explore my skills and projects, view project images and descriptions, download my resume and certificates, and visit my social media profiles.
 
 # ✨ Features
 
